@@ -1,0 +1,30 @@
+#xrai-chatbot-root {
+  all: initial;
+  font-family: Nunito, sans-serif;
+}
+
+.chatbox__support {
+  position: fixed;
+  bottom: 90px;
+  right: 20px;
+  width: 360px;
+  height: 520px;
+  background: #fff;
+  border-radius: 14px;
+  display: none;
+  z-index: 999999;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+.chatbox__button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999999;
+}
+
+.chatbox__button button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
