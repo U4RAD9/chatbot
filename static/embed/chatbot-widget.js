@@ -13,14 +13,14 @@
     /* ---------- LOAD CSS ---------- */
     const css = document.createElement("link");
     css.rel = "stylesheet";
-    css.href = "http://127.0.0.1:5000/static/embed/widget.css";
+    css.href = "https://chatbot.xraidigital.com/static/embed/widget.css";
     document.head.appendChild(css);
 
     /* ---------- CHAT BUTTON ---------- */
     const button = document.createElement("div");
     button.id = "xrai-chat-button";
     button.innerHTML = `
-      <img src="http://127.0.0.1:5000/static/images/chatbox-icon.svg" />
+      <img src="https://chatbot.xraidigital.com/static/images/chatbox-icon.svg" />
     `;
     document.body.appendChild(button);
 
@@ -46,11 +46,11 @@
     /* ---------- LOAD UI THEN LOGIC ---------- */
     loadScript(
       // "https://chatbot.xraidigital.com/static/embed/chat-ui.js",
-        "http://127.0.0.1:5000/static/embed/chat-ui.js",
+        "https://chatbot.xraidigital.com/static/embed/chat-ui.js",
       () => {
         loadScript(
           // "https://chatbot.xraidigital.com/static/app.js",
-          "http://127.0.0.1:5000/static/app.js",
+          "https://chatbot.xraidigital.com/static/app.js",
           () => {
             // IMPORTANT: INIT AFTER DOM EXISTS
             if (window.initXRaiChatbot) {

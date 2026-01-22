@@ -84,7 +84,7 @@
         }
 
         if (!this.is_registering) {
-            fetch('http://127.0.0.1:5000/predict', {
+            fetch('https://chatbot.xraidigital.com/predict', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ message: text1 })
@@ -129,7 +129,7 @@
     }
 
     bookAppointment(chatbox) {
-        fetch('http://127.0.0.1:5000/book-appointment', {
+        fetch('https://chatbot.xraidigital.com/book-appointment', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(this.user_data)
