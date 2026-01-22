@@ -75,9 +75,16 @@ def book_appointment():
         email = data.get("email")
 
         if not name or not phone:
-            return jsonify({
-                "answer": "❌ Name and phone are required."
-            }), 400
+         return jsonify({
+           "answer": (
+            "<div class='text-response'>"
+            "✅ <b>Thank you!</b><br>"
+            "Your call-back request has been successfully submitted.<br>"
+            "Our team will contact you shortly."
+            "</div>"
+           )
+        }), 200
+
         DB_PATH = os.path.join(os.path.dirname(__file__), "sqlite.db")
 
         conn = sqlite3.connect(DB_PATH)

@@ -1,0 +1,164 @@
+{
+  "services": {
+    "xray": {
+      "keywords": ["xray", "x-ray", "x ray", "home xray", "xray at home"],
+      "questions": [
+        "What is an X-ray?",
+        "X-ray kya hota hai?",
+        "Why is X-ray done?",
+        "Can you explain X-ray test?",
+        "What does an X-ray show?",
+        "Is X-ray safe?",
+        "How does home X-ray work?",
+        "Is home X-ray same as hospital X-ray?",
+        "Xray test information please"
+      ],
+      "info": "X-rays create images of the inside of the body. They are commonly used to diagnose bone fractures, lung problems, and soft tissue abnormalities. Home X-ray is performed using portable low-radiation digital machines.",
+      "price": "Single view: Rs. 2000\nDouble view: Rs. 3000",
+      "report": "Emergency reports are available within 30 minutes. Routine reports are delivered within 12–24 hours."
+    },
+
+    "ecg": {
+      "keywords": ["ecg", "ekg", "heart test", "ecg at home"],
+      "questions": [
+        "What is ECG?",
+        "ECG kya hota hai?",
+        "Why ECG test is done?",
+        "What does ECG detect?",
+        "Is ECG painful?",
+        "How ECG test is performed?",
+        "Can ECG be done at home?",
+        "Heart ECG test details please"
+      ],
+      "info": "An ECG records the electrical activity of the heart to help detect heart rhythm issues and other cardiac conditions.",
+      "price": "Rs. 800",
+      "report": "ECG graph is shared within 1 minute on WhatsApp. Final report is shared within 1 hour."
+    },
+
+    "pft": {
+      "keywords": ["pft", "lung test", "breathing test", "pulmonary"],
+      "questions": [
+        "What is PFT?",
+        "PFT test kya hota hai?",
+        "Why is PFT done?",
+        "What is lung function test?",
+        "How is PFT performed?",
+        "Is PFT painful?",
+        "Can PFT be done at home?",
+        "Breathing test details please"
+      ],
+      "info": "Pulmonary Function Test (PFT) measures how well your lungs are working and helps diagnose breathing-related conditions.",
+      "price": "Rs. 2000 (without medication)",
+      "report": "PFT graph is shared instantly on WhatsApp. Final report is shared within 6–7 hours."
+    },
+
+    "holter": {
+      "keywords": ["holter", "holter ecg", "heart monitor", "24 hour ecg", "72 hour ecg"],
+      "questions": [
+        "What is Holter test?",
+        "Holter monitoring kya hota hai?",
+        "Why Holter test is done?",
+        "What is 24 hour ECG test?",
+        "How does Holter monitoring work?",
+        "Is Holter test safe?",
+        "Can Holter test be done at home?",
+        "Heart monitoring test details"
+      ],
+      "info": "A Holter monitor is a portable device that continuously records heart activity for 24–72 hours to detect heart rhythm abnormalities.",
+      "price": "24 hrs machine: Rs. 3000\n72 hrs patch: Rs. 6500",
+      "report": "24 hrs Holter report: within 1 hour of completion.\n72 hrs patch report: within 24 hours."
+    },
+
+    "audiometry": {
+      "keywords": ["audiometry", "hearing test", "ear test"],
+      "questions": [
+        "What is audiometry?",
+        "Hearing test kya hota hai?",
+        "Why audiometry test is required?",
+        "How is hearing test done?",
+        "Is audiometry painful?",
+        "Can hearing test detect hearing loss?",
+        "Audiometry test details please"
+      ],
+      "info": "Audiometry evaluates hearing sensitivity using an audiometer and helps diagnose hearing loss across different sound frequencies.",
+      "price": "Please contact us for audiometry pricing.",
+      "report": "Report timeline will be shared at the time of test."
+    }
+  },
+
+  "general": {
+    "booking": {
+      "questions": [
+        "How can I book an appointment?",
+        "I want to book a test",
+        "Appointment kaise book kare?",
+        "Can I schedule a home test?",
+        "How do I book a test online?"
+      ],
+      "answer": "You can book an appointment by calling 18002702900 or by logging into our portal at https://xraidigital.com/Account/Login"
+    },
+
+    "callback": {
+      "questions": [
+        "Can you call me back?",
+        "I want a callback",
+        "Please arrange a call back",
+        "Mujhe call back chahiye"
+      ],
+      "answer": "Please select 'Request a call-back' and enter your name. Our team will contact you shortly."
+    },
+
+    "services_at_home": {
+      "questions": [
+        "Do you provide services at home?",
+        "Home testing available?",
+        "What tests can be done at home?",
+        "Ghar pe test hota hai?"
+      ],
+      "answer": "We provide X-Ray, ECG, PFT, Holter, and Audiometry diagnostic tests at home."
+    },
+
+    "pricing": {
+      "questions": [
+        "What are your charges?",
+        "Price list please",
+        "Service cost kya hai?"
+      ],
+      "answer": "X-Ray Single: Rs. 2000\nX-Ray Double: Rs. 3000\nECG: Rs. 800\nPFT: Rs. 2000\nHolter 24 hrs: Rs. 3000\nHolter 72 hrs: Rs. 6500"
+    },
+
+    "payment_modes": {
+      "questions": [
+        "What payment methods do you accept?",
+        "Can I pay by UPI?",
+        "Cash payment allowed?"
+      ],
+      "answer": "We accept cash, UPI, debit/credit cards, and online payments."
+    },
+
+    "pregnancy_safety": {
+      "questions": [
+        "Is X-ray safe during pregnancy?",
+        "Pregnant person room me reh sakta hai?"
+      ],
+      "answer": "Pregnant individuals should not be present in the room during an X-ray procedure."
+    },
+
+    "staff_identification": {
+      "questions": [
+        "How will I identify your technician?",
+        "Technician ID milega?"
+      ],
+      "answer": "Once booking is confirmed, we share the technician’s ID (photo and mobile number) on WhatsApp. The technician also calls before arrival."
+    },
+
+    "about": {
+      "questions": [
+        "Tell me about your company",
+        "What is XRAI Digital?",
+        "About your services"
+      ],
+      "answer": "We are India’s first Digital AI-enabled home diagnostic service providing radiology and cardiology tests at home using advanced portable machines."
+    }
+  }
+}

@@ -27,7 +27,11 @@
             return;
         }
 
-        sendButton.addEventListener('click', () => this.onSendButton(chatBox));
+    sendButton.addEventListener("click", function (e) {
+      e.preventDefault();   // 🚫 stops page reload
+      sendMessage();
+    });
+
 
         if (micButton) {
             micButton.addEventListener('mousedown', () => this.onMicButton(chatBox));
@@ -80,7 +84,7 @@
         }
 
         if (!this.is_registering) {
-            fetch('https://chatbot.xraidigital.com/predict', {
+            fetch('http://127.0.0.1:5000/predict', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ message: text1 })
@@ -114,7 +118,7 @@
                 break;
             case 3:
                 if (!/^no$/i.test(text)) this.user_data.email = text;
-                response = 'Your request is in progress...';
+                response = 'Your call-back request has been successfully submitted.';
                 this.bookAppointment(chatbox);
                 break;
         }
@@ -125,7 +129,7 @@
     }
 
     bookAppointment(chatbox) {
-        fetch('https://chatbot.xraidigital.com/book-appointment', {
+        fetch('http://127.0.0.1:5000/book-appointment', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(this.user_data)

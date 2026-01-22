@@ -1,12 +1,12 @@
 (function () {
-  function toggleChat() {
+  function openChat() {
     const chat = document.querySelector(".chatbox__support");
-    chat.style.display = chat.style.display === "block" ? "none" : "block";
+    chat.style.display = "block";   // 👈 FORCE OPEN
   }
 
   document.addEventListener("click", function (e) {
     if (e.target.closest("#xrai-chat-toggle")) {
-      toggleChat();
+      openChat();   // 👈 no toggle
     }
   });
 })();
